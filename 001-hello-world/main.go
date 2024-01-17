@@ -1,12 +1,19 @@
 package main
 
-import "fmt"
+import (
+	"fmt"
+)
 
 func main() {
-	x := 1
-	for x < 10 {
-		fmt.Println(x)
-		x++
+	p1 := struct {
+		first string
+		last string
+		age int
+	}{
+		first: "James",
+		last: "Bond",
+		age: 32,
 	}
-	fmt.Println("Done..")
+
+	fmt.Println(p1)
 }
