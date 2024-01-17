@@ -2,11 +2,14 @@ package main
 
 import "fmt"
 
+const (
+	a = iota + 2
+	b
+	c
+)
+
 func main() {
-	x := 1
-	for x < 10 {
-		fmt.Println(x)
-		x++
-	}
-	fmt.Println("Done..")
+	fmt.Printf("%T\t%v\n", a, a)
+	fmt.Printf("%T\t%v\n", b, b)
+	fmt.Printf("%T\t%v\n", c, c)
 }
