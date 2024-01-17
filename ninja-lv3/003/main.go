@@ -4,7 +4,7 @@ import (
 	"fmt"
 )
 
-func main(){
+func main() {
 	bd := 1998
 	cur := 2024
 	for bd <= cur {

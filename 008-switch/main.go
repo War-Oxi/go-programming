@@ -18,7 +18,7 @@ func main() {
 	}
 
 	n := "Bond"
-	switch n{
+	switch n {
 	case "Moneypenny", "Bond", "Do No":
 		fmt.Println("miss money or bond or dr no")
 	default:

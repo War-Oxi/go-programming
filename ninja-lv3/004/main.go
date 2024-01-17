@@ -3,13 +3,14 @@ package main
 import (
 	"fmt"
 )
-func main(){
+
+func main() {
 	bd := 1998
 	cur := 2024
 
 	for {
 		fmt.Println(bd)
-		if(bd == cur){
+		if bd == cur {
 			break
 		}
 		bd++

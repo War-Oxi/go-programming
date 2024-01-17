@@ -1,15 +1,14 @@
 package main
 
-import "fmt"
-
-const (
-	a = iota + 2
-	b
-	c
+import (
+	"fmt"
 )
 
 func main() {
-	fmt.Printf("%T\t%v\n", a, a)
-	fmt.Printf("%T\t%v\n", b, b)
-	fmt.Printf("%T\t%v\n", c, c)
+	foo("str", "str2", "str2", "str2")
+}
+
+func foo(str string, str2 ...string){
+	fmt.Println(str)
+	fmt.Println(str2)
 }

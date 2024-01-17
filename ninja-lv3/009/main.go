@@ -4,9 +4,9 @@ import (
 	"fmt"
 )
 
-func main(){
+func main() {
 	favSport := "surfing"
-	switch favSport{
+	switch favSport {
 	case "skiing":
 		fmt.Println("go to the mountains")
 	case "swimming":
