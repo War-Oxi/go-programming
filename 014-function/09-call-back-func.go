@@ -5,7 +5,7 @@ import (
 )
 
 func main() {
-	ii := []int{1,2,3,4,5,6,7,8,9,}
+	ii := []int{1, 2, 3, 4, 5, 6, 7, 8, 9}
 	s1 := sum(ii...)
 	fmt.Println("all numbers", s1)
 
@@ -28,7 +28,7 @@ func sum(xi ...int) int {
 func even(f func(xi ...int) int, vi ...int) int {
 	var yi []int
 	for _, v := range vi {
-		if v % 2 == 0 {
+		if v%2 == 0 {
 			yi = append(yi, v)
 		}
 	}
@@ -38,11 +38,10 @@ func even(f func(xi ...int) int, vi ...int) int {
 func odd(f func(xi ...int) int, vi ...int) int {
 	var oddSlice []int
 	for _, value := range vi {
-		if value % 2 == 0{
+		if value%2 == 0 {
 			continue
 		}
 		oddSlice = append(oddSlice, value)
 	}
-
 	return f(oddSlice...)
 }

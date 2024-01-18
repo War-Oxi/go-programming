@@ -1,14 +1,14 @@
 package main
 
-import(
+import (
 	"fmt"
 )
 
 func main() {
-	myMap := map[string][]string {
-		"bond_james": []string{"dog", "cat", "elephant"},
+	myMap := map[string][]string{
+		"bond_james":      []string{"dog", "cat", "elephant"},
 		"moneypenny_miss": []string{"James Bond", "Literature"},
-		"kkamji": []string{"1", "2", "3", "4"},
+		"kkamji":          []string{"1", "2", "3", "4"},
 	}
 
 	myMap["kim_tae_ji"] = []string{"babo", "babo1", "babo2", "babo3"}

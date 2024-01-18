@@ -1,8 +1,9 @@
 package main
 
-import(
+import (
 	"fmt"
 )
+
 type vehicle struct {
 	doors string
 	color string
@@ -21,17 +22,17 @@ type sedan struct {
 func main() {
 	myTruck := truck{
 		vehicle: vehicle{
-			doors : "2door",
-			color : "white",
+			doors: "2door",
+			color: "white",
 		},
 		fourWhell: true,
 	}
 
 	mySedan := sedan{
 		vehicle: vehicle{
-			doors : "4door",
-			color : "black",
-	},
+			doors: "4door",
+			color: "black",
+		},
 		luxury: true,
 	}
 

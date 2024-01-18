@@ -6,7 +6,7 @@ import (
 
 type person struct {
 	first string
-	last string
+	last  string
 }
 
 type secretAgent struct {
@@ -19,13 +19,13 @@ func (s secretAgent) speak() {
 }
 
 func main() {
-	sa1 := secretAgent {
-		person: person {
+	sa1 := secretAgent{
+		person: person{
 			first: "James",
-			last: "Bond",
+			last:  "Bond",
 		},
 		ltk: true,
 	}
 
-	sa1.speak();
+	sa1.speak()
 }

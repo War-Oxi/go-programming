@@ -1,6 +1,6 @@
 package main
 
-import(
+import (
 	"fmt"
 )
 
@@ -18,7 +18,7 @@ func factorial(n int) int {
 
 func loopfactorial(num int) int {
 	var sum int = 1
-	for ; num>0; num-- {
+	for ; num > 0; num-- {
 		sum *= num
 	}
 

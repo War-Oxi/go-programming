@@ -6,7 +6,7 @@ import (
 
 type person struct {
 	first string
-	last string
+	last  string
 }
 
 type secretAgent struct {
@@ -37,29 +37,29 @@ func bar(h human) {
 }
 
 func main() {
-	sa1 := secretAgent {
-		person: person {
+	sa1 := secretAgent{
+		person: person{
 			first: "James",
-			last: "Bond",
+			last:  "Bond",
 		},
 		ltk: true,
 	}
-	sa2 := secretAgent {
-		person: person {
+	sa2 := secretAgent{
+		person: person{
 			first: "Miss",
-			last: "Moneypenny",
+			last:  "Moneypenny",
 		},
 		ltk: true,
 	}
 
-	p1 := person {
+	p1 := person{
 		first: "Dr.",
-		last: "Yes.",
+		last:  "Yes.",
 	}
 
 	fmt.Println(sa1)
-	sa1.speak();
-	sa2.speak();
+	sa1.speak()
+	sa2.speak()
 
 	fmt.Println(p1)
 

@@ -4,7 +4,7 @@ import (
 	"fmt"
 )
 
-func main(){
+func main() {
 	xs1 := []string{"James", "Bond", "Shaken, not stirred"}
 	xs2 := []string{"Miss", "Moneypenny", "Helloooo, James."}
 	xxs := [][]string{xs1, xs2}
@@ -12,7 +12,7 @@ func main(){
 	fmt.Println("xs1 =>", xs1)
 	fmt.Println("xs2 =>", xs2)
 
-	for i, xs :=range xxs {
+	for i, xs := range xxs {
 		fmt.Println("record: ", i)
 		for j, val := range xs {
 			fmt.Printf("\t index position: %v \t value: \t %v \n", j, val)

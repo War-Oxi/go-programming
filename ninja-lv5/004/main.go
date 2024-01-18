@@ -1,21 +1,21 @@
 package main
 
-import(
+import (
 	"fmt"
 )
 
-func main(){
-	x := struct{
-		name string
-		age int
-		friends map[string]int
+func main() {
+	x := struct {
+		name      string
+		age       int
+		friends   map[string]int
 		favDrinks []string
 	}{
 		name: "kimtaeji",
-		age: 27,
+		age:  27,
 		friends: map[string]int{
 			"park-tae-hyong": 27,
-			"kim-jin-su": 28,
+			"kim-jin-su":     28,
 		},
 		favDrinks: []string{
 			"soju",
