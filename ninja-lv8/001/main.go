@@ -6,9 +6,9 @@ import (
 )
 
 type User struct {
-    UserName     string `json:"user_name"`
-    UserPassword string `json:"user_password"`
-    UserComment  string `json:"user_comment"`
+	UserName     string `json:"user_name"`
+	UserPassword string `json:"user_password"`
+	UserComment  string `json:"user_comment"`
 }
 
 func main() {
@@ -23,9 +23,9 @@ func main() {
 		"suhyun",
 		"hello",
 	}
-	
+
 	users := []User{
-		user1, 
+		user1,
 		user2,
 	}
 

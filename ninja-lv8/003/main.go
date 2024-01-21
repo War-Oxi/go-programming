@@ -46,7 +46,7 @@ func main() {
 			"Can someone please tell me where James Bond is?",
 		},
 	}
-	
+
 	// your code goes here
 	users := []user{u1, u2, u3}
 
