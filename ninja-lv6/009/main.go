@@ -5,7 +5,7 @@ import (
 )
 
 func main() {
-
+	fmt.Println("Starting")
 	g := func(xi []int) int {
 		if len(xi) == 0 {
 			return 9
@@ -20,7 +20,7 @@ func main() {
 }
 
 func foo(f func(xi []int) int) int {
-	n := f()
+	n := f([]int{1, 2, 3, 4, 5, 6,})
 	n++
 	return n
 }
